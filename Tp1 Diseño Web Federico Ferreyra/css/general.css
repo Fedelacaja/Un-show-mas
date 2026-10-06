@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+    color: blanchedalmond;
+    font-size: x-large;
+    text-align: right;
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+a{
+    color: black;
+    padding: 20px;
+}
+article{
+    text-align: left;
+    margin: 0 0 0 50px;
+    font-size: 19px;
+}
+.mirar{
+    color: rgb(21, 35, 97);
+}
+.extra{
+  color: rgb(21, 35, 97);  
+}
+nav{
+    background-color: rgb(119, 159, 219);
+}
+
+.episodio{
+     font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xx-large;
+  li{
+     font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+  }
+}
+
+h1,h2{
+     font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2{
+    margin: 90px 0 20px 0;
+    background-color: rgb(19, 53, 83);
+}
+ h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+ }
+.txtprincipal{
+    padding: 80px;
+    text-align: center;
+    font-size: 30px;
+    margin: 0 100px 0 100px;
+}
+.margengrande{
+    margin: 20px 800px 50px 0px;
+    text-align: justify;
+}
