@@ -64,3 +64,9 @@ h2{
     margin: 20px 800px 50px 0px;
     text-align: justify;
 }
+
+.flexseparate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
