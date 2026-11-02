@@ -25,8 +25,8 @@ a{
   font-style: normal;
   font-size: 30px;
   text-align: left;
-  padding: 50px;
-  margin: 0 0 0 20px;
+  padding: 20px;
+  margin: 0 0 20px 20px;
 }
 .mirar,.extra{
     color: rgb(39, 21, 12);
@@ -44,4 +44,12 @@ a{
 }
 article{
     margin: 0 0 0 0;
+}
+footer{
+    background-color: rgb(126, 83, 54);
+    color: rgb(39, 21, 12);
+    margin: 50px 0px 0 0px;
+}
+main{
+    padding: 40px;
 }
