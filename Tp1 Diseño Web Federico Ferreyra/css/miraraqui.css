@@ -25,6 +25,8 @@ a{
   font-style: normal;
   font-size: 30px;
   text-align: left;
+  padding: 50px;
+  margin: 0 0 0 20px;
 }
 .mirar,.extra{
     color: rgb(39, 21, 12);
@@ -37,6 +39,9 @@ a{
 }
 .flexseparate{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-beetween;
     align-items: center;
+}
+article{
+    margin: 0 0 0 0;
 }
