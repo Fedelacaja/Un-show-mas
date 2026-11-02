@@ -60,3 +60,8 @@ ul{
     margin: 20px 200px 50px 0px;
     text-align: justify;
 }
+.navegador{
+    align-items: right;
+    text-align: right;
+    margin: 0 0 0 50px;
+}
