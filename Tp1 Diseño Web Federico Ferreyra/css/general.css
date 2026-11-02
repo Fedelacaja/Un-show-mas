@@ -70,3 +70,13 @@ h2{
     justify-content: space-between;
     align-items: center;
 }
+.centro{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    background-color: rgb(119, 159, 219);
+    color: rgb(21, 35, 97);
+}
