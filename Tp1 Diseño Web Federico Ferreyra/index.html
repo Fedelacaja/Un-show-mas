@@ -130,7 +130,44 @@
         </article>
     </main>
     <footer>
-    <article class="centro">
+   
+    <form action="confirmacion.html">
+    <!-- nombre,apellido, mail, telefono, la consulta.... -->
+     <h3>Contáctanos</h3>
+         <label for="usuario">
+            Usuario:
+         <input type="text" name="usuario" id="usuario" placeholder="escriba su nombre de usuario">
+         </label>
+
+         <label>
+            Contraseña:
+            <input  type="password" placeholder="Minimo 6 caracteres" minlength="6" name="contra" id="contra">
+         </label>
+
+         <label>
+            Email:
+            <input  type="email" placeholder="ej: juanchope@gmail.com" name="email" id="">
+         </label>
+         <label>
+            Edad:
+          <input type="number" name="edad" placeholder="Escriba su edad" min="0" id="">
+        </label>
+        <label>
+            Motivo:
+         <select name="helado" id="">
+            <option value="">Reporte</option>
+            <option value="">Comisión</option>
+            <option value=""></option>
+         </select>
+        </label>
+         <label class="notificacion">
+            Recibir notificaciones al mail
+         <input checked type="checkbox" name="noti" id="">
+         </label>
+        <input type="submit" hidden value="CARGAR">
+         <button  type="submit">ENVIAR</button>
+         </form>
+          <article class="centro">
           <a href="./index.html">
                 <img src="Img/un show mas.png" alt="Un show más logo" height="50px">
             </a>
