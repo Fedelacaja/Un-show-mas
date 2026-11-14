@@ -42,13 +42,10 @@ a{
     justify-content: space-beetween;
     align-items: center;
 }
-article{
-    margin: 0 0 0 0;
-}
+
 footer{
     background-color: rgb(126, 83, 54);
     color: rgb(39, 21, 12);
-    margin: 50px 0px 0 0px;
 }
 main{
     padding: 40px;
