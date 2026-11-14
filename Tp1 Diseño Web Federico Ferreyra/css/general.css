@@ -120,3 +120,5 @@ margin: 30px;
  .check{
     width: fit-content;
  }
+
+*{scroll-behavior: smooth;}
