@@ -22,3 +22,16 @@ a{
     color: blanchedalmond;
     text-align: center;
 }
+
+.contenedor {
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.imagen-libre {
+  position: absolute;
+  top: 100px;
+  left: 60%;
+  width: 400px;
+}
