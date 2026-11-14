@@ -26,6 +26,7 @@
             <a href="../index.html#v1">Volumen 1</a>
             <a href="../index.html#v2">Volumen 2</a>
             <a href="../index.html#v3">Volumen 3</a>
+            <a href="#consultas">Contacto</a>
             </article>
         </nav>
     </header>
@@ -39,6 +40,43 @@
        </article>
     </main>
     <footer>
+        
+          <form id="consultas" action="confirmacion.html">
+     <h3 >¡Contáctanos!</h3>
+         <label for="usuario">
+            Usuario:
+         <input type="text" name="usuario" id="usuario" placeholder="escriba su nombre de usuario" required>
+         </label>
+
+         <label>
+            Contraseña:
+            <input  type="password" placeholder="Minimo 6 caracteres" minlength="6" name="contra" id="contra" required>
+         </label>
+
+         <label>
+            Email:
+            <input  type="email" placeholder="ej: juanchope@gmail.com" name="email" id="" required>
+         </label>
+         <label>
+            Edad:
+          <input type="number" name="edad" placeholder="Escriba su edad" min="18" id="" required>
+        </label>
+        <label>
+            Motivo:
+         <select name="motivo" id="" aria-required="">
+             <option value="">Consulta</option>
+             <option value="">Reporte</option>
+            <option value="">Comisión</option>
+            <option value="">Otro</option>
+         </select>
+        </label>
+         <label>
+            Recibir notificaciones al mail
+         <input class="check" checked type="checkbox" name="noti" id="">
+         </label>
+        <input type="submit" hidden value="CARGAR">
+         <button class="enviar" type="submit">ENVIAR</button>
+         </form>
         <article class="centro">
           <a href="../index.html">
                 <img src="../Img/un show mas.png" alt="Un show más logo" height="50px">
