@@ -37,11 +37,7 @@ h2{
 .mirar,.extra{
     color: rgb(138, 59, 59);
 }
-article{
-    text-align: left;
-    margin: 0 450px 0 50px;
-    font-size: 19px;
-}
+
 .txtprincipal{
     padding: 80px;
     text-align: center;
@@ -55,9 +51,6 @@ ul{
   font-size: xx-large;
   text-align: left;
 }
-.desc{
-    margin: 0 200px 0 0px;
-}
 .margengrande{
     margin: 20px 200px 50px 0px;
     text-align: justify;
@@ -70,3 +63,16 @@ ul{
 footer{
     background-color:  rgb(255, 162, 162);
     color: rgb(138, 59, 59);}
+
+.flexdoscolumnas{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+
+}
+.columna{
+    width: 50%;
+}
+article{
+    margin: 30px
+}
