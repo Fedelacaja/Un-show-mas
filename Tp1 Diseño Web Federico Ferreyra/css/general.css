@@ -1,5 +1,9 @@
 body{
-    background-color: black;
+    background-image: url('../Img/galaxia.png');
+    background-repeat: no-repeat;
+     background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
     color: blanchedalmond;
     font-size: x-large;
     text-align: right;
