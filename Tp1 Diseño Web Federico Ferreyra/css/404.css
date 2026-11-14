@@ -29,9 +29,16 @@ a{
   height: 80px;
 }
 
-.imagen-libre {
+.nohaypastelmordo {
   position: absolute;
   top: 100px;
-  left: 60%;
+  left: 55%;
+  width: 400px;
+}
+
+.nohaypastelmrigby {
+  position: absolute;
+  top: 90px;
+  left: 15%;
   width: 400px;
 }
